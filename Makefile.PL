@@ -4,5 +4,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Template::Plugin::TextToHtml',
     'VERSION_FROM'	=> 'TextToHtml.pm', # finds $VERSION
-    'PREREQ_PM'		=> { HTML::FromText => '1.005' }, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+                        HTML::FromText => '1.005',
+                        Template       => '2.0',
+                       },
 );

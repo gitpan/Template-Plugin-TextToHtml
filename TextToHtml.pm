@@ -8,7 +8,7 @@ use base qw( Template::Plugin );
 use Template::Plugin;
 use HTML::FromText;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub new {
     my ($class, $context, $format) = @_;;
